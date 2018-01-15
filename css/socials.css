@@ -1,0 +1,20 @@
+.icons-container {
+  text-align: center;
+}
+
+.icons-container__link {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.icons-container__icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  fill: #e4b264;
+}
+
+.icons-container__icon:hover {
+  fill: #000;
+}

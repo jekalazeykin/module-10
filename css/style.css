@@ -1,0 +1,91 @@
+body {
+  background-image: url(../images/background-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 50%;
+  min-width: 1024px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.website {
+  margin: 20px auto 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+  position: fixed;
+  right: 180px;
+  bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    min-width: 768px;
+  }
+  .top {
+    right: 140px;
+    bottom: 10px;
+  }
+  .website {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    min-width: 480px;
+  }
+  .social {
+    width: 40%;
+  }
+  .website {
+    font-size: 60%;
+  }
+  .top {
+    right: 160px;
+    bottom: 10px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  body {
+    background-image: url(../images/background-ret.jpg);
+  }
+  .gallery__block:first-child {
+    background-image: url(../images/slade1-ret.jpg);
+  }
+  .gallery__block:nth-child(2) {
+    background-image: url(../images/slade2-ret.jpg);
+  }
+  .gallery__block:nth-child(3) {
+    background-image: url(../images/slade3-ret.jpg);
+  }
+  .gallery__block:nth-child(4) {
+    background-image: url(../images/slade4-ret.jpg);
+  }
+  .gallery__block:nth-child(5) {
+    background-image: url(../images/slade5-ret.jpg);
+  }
+  .gallery__block:nth-child(6) {
+    background-image: url(../images/slade6-ret.jpg);
+  }
+  .gallery__block:nth-child(7) {
+    background-image: url(../images/slade7-ret.jpg);
+  }
+  .gallery__block:nth-child(8) {
+    background-image: url(../images/slade8-ret.jpg);
+  }
+  .gallery__block:nth-child(9) {
+    background-image: url(../images/slade9-ret.jpg);
+  }
+}

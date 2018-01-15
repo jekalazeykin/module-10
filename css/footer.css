@@ -1,0 +1,40 @@
+.footer {
+  height: 130px;
+  background-color: #30455b;
+  vertical-align: top;
+  margin: 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.footer-nav__item {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-nav__list {
+  color: #ffffff;
+  line-height: 2;
+}
+
+.footer-nav__list_size_s {
+  line-height: 1.2;
+  font-size: 80%;
+  padding-top: 5px;
+}
