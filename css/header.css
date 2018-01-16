@@ -118,7 +118,7 @@
     width: 70px;
     padding: 10px 10px 10px 15px;
   }
-  .menu__item .menu__list_directions_order {
+  .menu__item .menu__list_directions-order {
     width: 100%;
     padding: 10px;
     -webkit-box-ordinal-group: 0;
@@ -137,13 +137,13 @@
     left: 25px;
     z-index: 10;
   }
-  .menu__link_directions_padding {
+  .menu__link_directions-padding {
     padding-left: 4px;
   }
-  .menu__link_directions_padding-right {
+  .menu__link_directions-padding-right {
     padding-right: 10px;
   }
-  .menu__link_directions_padding_left_c {
+  .menu__link_directions-padding-left-c {
     padding-left: 2px;
   }
 }
@@ -156,14 +156,14 @@
   .menu__list {
     width: auto;
   }
-  .menu__link_directions_padding {
+  .menu__link_directions-padding {
     padding: 0;
   }
-  .menu__link_directions_padding-right {
+  .menu__link_directions-padding-right {
     padding-right: 5px;
     padding-left: 10px;
   }
-  .menu__link_directions_padding-left {
+  .menu__link_directions-padding-left {
     padding-left: 10px;
   }
   .submenu {
